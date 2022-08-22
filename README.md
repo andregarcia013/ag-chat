@@ -15,7 +15,7 @@ Algumas funções já implementadas no AG - Chat:
 - Confirmação de Recebimento e Leitura
 
 Algumas funções que sairam em breve:
-
+- Ajustes nos Slices do Redux
 - Renderização de Datas nas mensagens
 - Edição e exclusão de Mensagens já enviadas
 - Confirmação de Usuário Online e Ultima visualização

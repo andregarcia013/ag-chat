@@ -33,14 +33,11 @@ export const chatslice = createSlice({
     },
     setChats(state, action) {
       state.chats = action.payload;
-      console.log("setting state chats");
       return state;
     },
     setChatMessageState(state, action) {
-      console.log("Set Chat Message Status => ", action.payload);
       const stateDraf = JSON.parse(JSON.stringify(state));
       const chats: IChatDTO[] = JSON.parse(JSON.stringify(state.chats));
-
       let [foundChat, foundChatIndex] = [
         chats.find((e) => e.idRef === action.payload.chat.idRef),
         chats.findIndex((e) => e.idRef === action.payload.chat.idRef),
@@ -67,7 +64,6 @@ export const chatslice = createSlice({
         chats[foundChatIndex].lastMessageStatus = msg.messageStatus;
       });
 
-      console.log(chats[foundChatIndex]);
       stateDraf.chats = chats;
       if (stateDraf.currentChat !== undefined) {
         if (stateDraf.currentChat.idRef === chats[foundChatIndex].idRef) {
@@ -79,11 +75,6 @@ export const chatslice = createSlice({
     newMessage(state, action) {
       const stateDraf = JSON.parse(JSON.stringify(state));
       const chats: IChatDTO[] = JSON.parse(JSON.stringify(state.chats));
-      console.log(
-        "reading chat => ",
-        stateDraf.currentChat !== null &&
-          action.payload.chat.idRef === stateDraf.idRef
-      );
 
       if (
         stateDraf.currentChatt !== null &&
