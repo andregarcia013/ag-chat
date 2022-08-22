@@ -4,6 +4,30 @@ Esse projeto é um Live Chat, com algumas funções básicas e avançadas para C
 
 Você pode fazer um Fork, fazer PR's para ajudar no desenvolvimento do projeto como desejar.
 
+## Preview
+
+<img
+  src="https://qmoleza.sfo3.digitaloceanspaces.com/ag-chat%20%285%29.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; width: 200px">
+<img
+  src="https://qmoleza.sfo3.digitaloceanspaces.com/ag-chat%20%281%29.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; width: 200px">
+<img
+  src="https://qmoleza.sfo3.digitaloceanspaces.com/ag-chat%20%283%29.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; width: 200px">
+<img
+  src="https://qmoleza.sfo3.digitaloceanspaces.com/ag-chat%20%282%29.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; width: 200px">
+
+
 Algumas funções já implementadas no AG - Chat:
 
 - Autenticação
